@@ -1,3 +1,17 @@
 body{
     background-color: bisque;
 }
+table{
+    background-color: rgb(241, 169, 75);
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+    color: black;
+
+}
+h1{
+    background-color: antiquewhite;
+    color: rgb(16, 10, 21);
+    text-align: center;
+}

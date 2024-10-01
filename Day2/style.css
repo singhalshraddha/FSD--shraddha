@@ -1,0 +1,28 @@
+div~p {
+    background-color: blue;
+
+}
+.fitems{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 10px;
+    border-color: burlywood ;
+    border-width: 20px;
+    border-style:double ;
+}
+.fcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.fitems.item1{
+    background-color: rgb(217, 19, 19);
+    order: -1;
+}
+.fitems.item2{
+    background-color: aquamarine;
+    order:1;
+}
