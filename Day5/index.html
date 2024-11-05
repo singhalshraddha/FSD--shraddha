@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"> </script>
+</head>
+<body>
+    <button onclick="display()"> click here </button>
+    <p>gj</p>
+    <p>gjgh </p>
+    <p>vg</p>
+    <script>
+        let p1= document.querySelectorAll('p');
+        let display=()=>{
+            for(let index=0;index<p1.length;index++){
+                p1[index].innerHTML="updated";
+                p1[index].style.backgroundColor=" red";
+            }
+
+           
+
+        }
+        
+
+    </script>
+    
+</body>
+</html>

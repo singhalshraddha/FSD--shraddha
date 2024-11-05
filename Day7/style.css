@@ -1,0 +1,15 @@
+*{
+    margin: 5%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#top{
+    background-color: bisque;
+    border: 10px solid green;
+    color: brown;
+
+}
+h1{
+    background-color: aquamarine;
+    color: blue;
+}
