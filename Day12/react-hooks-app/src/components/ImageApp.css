@@ -1,0 +1,78 @@
+/* ImageApp.css */
+
+/* General body styling with a gradient background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+}
+
+/* Center the image and apply some shadow for better visibility */
+div {
+    text-align: center;
+    background: #ffffffb3;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    margin: 20px 0;
+    transition: all 0.3s ease; /* Smooth transitions for width, height, and rotation */
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout for the buttons */
+.Increase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Button base styles */
+button {
+    background-color: #28a745; /* Default green button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover state */
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Button active state */
+button:active {
+    background-color: #1e7e34;
+    transform: scale(0.95);
+}
+
+/* Special styles for decrease buttons (red) */
+button.Dec {
+    background-color: #dc3545;
+}
+
+button.Dec:hover {
+    background-color: #c82333;
+}
+
+button.Dec:active {
+    background-color: #a71d2a;
+}

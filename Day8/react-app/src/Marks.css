@@ -1,0 +1,13 @@
+#sem{
+    background-color: rgb(183, 223, 240);
+    color:white;
+    border: 10px ridge;
+  }
+  h1{
+    background-color: rgb(10, 4, 71);
+    font-size: 20px;
+  }
+  h2{
+    background-color: rgb(21, 7, 84);
+    font-size: 8px;
+  }
